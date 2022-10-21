@@ -1,0 +1,33 @@
+name: CI
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        node_version: [16]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          node_version: ${{ matrix.node_version }}
+
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Check lints
+      run: npm run lint
+
+    # - name: Run the tests
+    #   run: npm run test
+
+    # - name: Build
+    #   run: npm run build
