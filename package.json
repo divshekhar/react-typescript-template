@@ -1,7 +1,7 @@
 {
-  "name": "webcv",
+  "name": "react-template",
   "version": "0.0.1",
-  "description": "WebCV",
+  "description": "React Template Using typescript, webpack, eslint, prettier and more.",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
