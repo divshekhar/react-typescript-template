@@ -1,9 +1,11 @@
 import { FC } from 'react'
-
+import './Navbar.css'
 const Navbar: FC = () => {
   return (
     <>
-      <h1>Hi navbar</h1>
+      <div className="navbar">
+        <header className="navbar-text">Leetcode Diary</header>
+      </div>
     </>
   )
 }

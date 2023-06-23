@@ -1,0 +1,10 @@
+.cards-container {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+  height: 100vh;
+}
+
+.cards-container::-webkit-scrollbar {
+  display: none;
+}

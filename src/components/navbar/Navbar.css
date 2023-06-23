@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.navbar {
+  background-color: #050507;
+  padding: 20px;
+  border-bottom: 1px solid #19191b;
+}
+.navbar-text {
+  color: #ffffff;
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+  font-weight: 400;
+}
