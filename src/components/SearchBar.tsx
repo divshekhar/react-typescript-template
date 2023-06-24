@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './SearchBar.css'
+
+
 const SearchBar = () => {
+
+
   return (
     <input
       placeholder="Search for a problem !!"

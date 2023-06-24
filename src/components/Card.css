@@ -6,9 +6,17 @@
   border: 1px solid #323232;
   height: 60px;
   border-radius: 5px;
+  position: relative;
 }
 .card-title {
   color: #ffffff;
   font-family: Montserrat, sans-serif;
   font-weight: 400;
+}
+.leetcode-link {
+  position: absolute;
+  right: 20px;
+}
+.leetcode-image {
+  cursor: pointer;
 }
