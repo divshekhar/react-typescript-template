@@ -3,6 +3,7 @@
   background-color: #050507;
   padding: 20px;
   border-bottom: 1px solid #19191b;
+  position: static;
 }
 .navbar-text {
   color: #ffffff;

@@ -1,7 +1,7 @@
-import React from 'react'
 import Card from './card'
 import './CardsContainer.css'
 import SearchBar from './SearchBar'
+
 const CardsContainer = () => {
   const items = []
   for (let i = 0; i < 100; i++) {

@@ -1,0 +1,5 @@
+.stats-container {
+  background: black;
+  color: #ffffff;
+  display: flex;
+}
