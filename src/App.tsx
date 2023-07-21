@@ -1,11 +1,11 @@
 import { FC } from 'react'
-import Navbar from './components/navbar/Navbar'
+import HomePage from './components/Home/HomePage'
 // import './App.css'
 
 const App: FC = () => {
   return (
     <div id="App">
-      <Navbar />
+      <HomePage />
     </div>
   )
 }
