@@ -9,6 +9,7 @@
 This template is built with the following technologies:
 
 - Language: **TypeScript**
+- Styling: **TailwindCSS**
 - Testing: **Jest**
 - Linting: **ESLint**
 - Formatting: **Prettier**
@@ -55,6 +56,7 @@ npm run build
 ## Features
 
 - [x] TypeScript for improved code quality and developer experience
+- [x] TailwindCSS for responsive styling
 - [x] Jest for unit testing
 - [x] ESLint for linting and maintaining code consistency
 - [x] Prettier for automatic code formatting

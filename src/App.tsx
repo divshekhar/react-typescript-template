@@ -1,13 +1,13 @@
-import { FC } from 'react'
-import HomePage from './components/Home/HomePage'
+import React from 'react';
+import HomePage from './components/Home/HomePage';
 // import './App.css'
 
-const App: FC = () => {
+const App: React.FC = () => {
   return (
     <div id="App">
       <HomePage />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
